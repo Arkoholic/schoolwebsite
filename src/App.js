@@ -7,9 +7,7 @@ import Profile from './components/Profile';
 function App() {
   return (
     <div className="App">
-      <Profile name="Benny" lastname="mackintosh">
-      <h4>This is the body</h4>
-      </Profile>
+      <Profile name="Benny" lastname="mackintosh"/>
    
       
       
