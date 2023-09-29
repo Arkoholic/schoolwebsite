@@ -5,12 +5,14 @@ import './App.css';
 //import Counter from './components/Counter';
 //import Profile from './components/Profile';
 //import Message from './components/Message';
-import Resume from './components/Resume';
+//import Resume from './components/Resume';
+// import FunctionalComponent from './components/FunctionalComponent';
+import ClassEvent from './components/ClassEvent';
 
 function App() {
   return (
     <div className="App">
-     <Resume name="Mr. Incredible"/>
+     <ClassEvent/>
     </div>
   );
 }
