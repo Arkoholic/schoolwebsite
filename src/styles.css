@@ -1,0 +1,37 @@
+.large-heading {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.sub-heading {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.nav-menu {
+    position: absolute;
+    display: inline;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: center; /* Center text within nav-menu */
+}
+
+.nav-menu-options {
+    display: inline-flex;
+    justify-content: space-evenly; /* Spread items evenly */
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+.nav-menu-options li {
+    display: inline;
+    margin: 10px 30px; /* Add 30px of margin on each side */
+}
+
+.link{
+    text-decoration:none !important ;
+    color: black;
+    font-size: 20px;
+}
