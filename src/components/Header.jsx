@@ -13,17 +13,7 @@ class Header extends Component {
             <h4 className='sub-heading'><i>Let God arise!</i></h4>
         </div>
         </div>
-        <div className='nav-menu'>
-            <ul className='nav-menu-options'>
-                <li><b><a href='' className='link'>Home</a></b></li>
-                <li><b><a href='' className='link'>About Us</a></b></li>
-                <li><b><a href='' className='link'>Admissions</a></b></li>
-                <li><b><a href='' className='link'>Gallery</a></b></li>
-                <li><b><a href='' className='link'>Our Teachers</a></b></li>
-            </ul>
-            
-            
-        </div>
+        
         </>
         
     )
