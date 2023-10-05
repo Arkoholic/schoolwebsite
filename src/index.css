@@ -15,3 +15,9 @@ code {
   src: url("../src/assets/fonts/Poppins/Poppins-Regular.ttf")
     format("opentype");
 }
+
+@font-face {
+  font-family: "PoppinsBlack";
+  src: url("../src/assets/fonts/Poppins/Poppins-Black.ttf")
+    format("opentype");
+}
