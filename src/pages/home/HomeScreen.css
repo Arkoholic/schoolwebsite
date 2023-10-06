@@ -57,14 +57,15 @@
     -webkit-text-stroke: 2px #000000;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 912px) {
     .image {
       position: relative;
+      display: none;
       left: 0;
       top: 0;
-      width: 100%; /* Make the image fill the container */
-      height: auto; /* Maintain aspect ratio */
-      border-radius: 59px; /* Remove border radius if not needed */
+      width: 100%;
+      height: auto; 
+      border-radius: 59px; 
     }
   
     .vectorImage {
@@ -74,20 +75,20 @@
     }
   
     .Home {
-      margin: 20px; /* Adjust the margins for smaller screens */
+      margin: 20px; 
     }
   
     .daycareText {
-      margin-left: 0; /* Remove left margin for smaller screens */
-      text-align: center; /* Center the text for smaller screens */
+      margin-left: 0; 
+      text-align: center; 
     }
   
     .normalText {
-      width: 100%; /* Make the text box fill the container */
+      width: 100%; 
     }
   
     .textWrapper3 {
-      text-align: center; /* Center the text for smaller screens */
+      text-align: center; 
     }
   }
 

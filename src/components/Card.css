@@ -1,46 +1,49 @@
 .card {
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    border-radius: 4px;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 349px;
-    height: 334px;
-    margin: 0px 20px;
-  }
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 349px;
+  height: 334px;
+  margin: 0px 20px;
+}
 
-  .cardImage {
-    display: flex;
-    justify-self: stretch;
-    align-content: center;
-    width: 100%;
-    border-radius: 10px;
-    height: 150px; /* Adjust this value as per your requirement */
-    object-fit: cover; /* This property ensures the image covers the specified height and width */
-  }
-  
-  
-  
-  .cardTitle{
-    font-size: 20px;
-    /* font-weight: bold; */
-    margin-bottom: 10px;
-    display: flex;
-    align-items: flex-start;
-    font-family: 'PoppinsBold';
-    font-size: 24px;
-  }
-  
-  .cardDateTime {
-    font-size: 14px;
-    color: #9E9E9E;
-    display: flex;
-    align-items: flex-start;
-    font-family: 'PoppinsLight';
-    
-  }
+.cardImage {
+  display: flex;
+  justify-self: stretch;
+  align-content: center;
+  width: 100%;
+  border-radius: 10px;
+  height: 150px;
+  object-fit: cover;
+}
 
-  
+.cardTitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  font-family: 'PoppinsBold';
+  font-size: 24px;
+}
+
+.cardDateTime {
+  font-size: 14px;
+  color: #535151;
+  display: flex;
+  align-items: flex-start;
+  font-family: 'PoppinsLight';
+}
+
+.cardInfo {
+  font-size: 14px;
+  color: #000000;
+  display: flex;
+  font-family: 'PoppinsLight';
+  justify-content: flex-start;
+  overflow: auto; /* Added this line */
+}

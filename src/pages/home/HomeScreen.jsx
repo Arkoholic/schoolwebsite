@@ -1,9 +1,11 @@
-import '../pages/HomeScreen.css';
+import './HomeScreen.css';
 import Art from '../../assets/img/yellow-to-left-pluses.svg';
 import Art2 from '../../assets/img/yellow-to-upperLeft.svg';
 import Pic from '../../assets/img/schoolBackgroundImage.png';
 import CardImage1 from '../../assets/img/cardImage1.svg';
-import Card from '../Card';
+import CardImage2 from '../../assets/img/cardImage2.svg';
+import CardImage3 from '../../assets/img/cardImage3.svg';
+import Card from '../../components/Card';
 
 
 const HomeScreen = (props) => {
@@ -54,11 +56,22 @@ tempor incididunt ut labore et dolore magna aliqua. </span>
                 <div className='cardViews'>
                 <Card
                 path={CardImage1}
-                title={<span>PTA Meeting</span>}
-                dateTime={<span>Monday, 15th October 2023 @ 12:00pm</span>}
+                title="PTA Meeting"
+                dateTime="Monday, 15th October 2023 @ 12:00pm"
+                info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
                 />
-                <Card/>
-                <Card/>
+                <Card
+                path={CardImage2}
+                title="PTA Meeting"
+                dateTime="Monday, 15th October 2023 @ 12:00pm"
+                info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+                />
+                <Card
+                path={CardImage3}
+                title="PTA Meeting"
+                dateTime="Monday, 15th October 2023 @ 12:00pm"
+                info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+                />
                 </div>
             </div>
         </>
