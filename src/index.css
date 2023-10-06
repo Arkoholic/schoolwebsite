@@ -21,3 +21,21 @@ code {
   src: url("../src/assets/fonts/Poppins/Poppins-Black.ttf")
     format("opentype");
 }
+
+@font-face {
+  font-family: "PoppinsSemiBold";
+  src: url("../src/assets/fonts/Poppins/Poppins-SemiBold.ttf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../src/assets/fonts/Poppins/Poppins-Bold.ttf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "PoppinsLight";
+  src: url("../src/assets/fonts/Poppins/Poppins-Light.ttf")
+    format("opentype");
+}

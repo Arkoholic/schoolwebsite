@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Header/>
       <Routes>
-        <Route path='/' exact Component={HomeScreen}/>
+      <Route path='/' exact Component={HomeScreen}/>
       </Routes>
     </BrowserRouter>
     </>

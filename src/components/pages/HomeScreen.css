@@ -1,45 +1,164 @@
 .Home {
-    margin: 45px 30px;
-}
-
-.textWrapper1 {
-    display: inline-block; /* Change display to inline-block */
+    margin: 45px 75px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+  }
+  
+  .textWrapper1 {
+    display: inline-block;
     color: #000000;
     font-size: 64px;
     font-family: 'PoppinsBlack';
     text-align: left;
     align-items: center;
-}
-
-.daycareText {
+  }
+  
+  .daycareText {
     margin-left: 200px;
-}
-
-.normalText{
-    position:fixed;
+  }
+  
+  .normalText {
+    position: relative;
     width: 430px;
     height: 120px;
     margin-top: 20px;
-}
-.textWrapper3 {
+  }
+  
+  .textWrapper3 {
     display: flex;
-  color: #000000;
-  font-size: 64px;
-  font-family: 'PoppinsBlack';
-  text-align: left;
-  align-items: center; /* Add this line to center the items vertically */
-}
-
-.textWrapper3 img {
+    color: #000000;
+    font-size: 64px;
+    font-family: 'PoppinsBlack';
+    text-align: left;
+    align-items: center;
+  }
+  
+  .vectorImage {
     margin: 0 auto;
-}
-
-.textWrapper2 {
-    display: inline-block; /* Change display to inline-block */
+    position: absolute;
+    left: 50%;
+  }
+  
+  .image {
+    position: absolute;
+    left: 55%;
+    top: 16%;
+    width: 645px;
+    height: 310px;
+    border-radius: 59px;
+  }
+  
+  .textWrapper2 {
+    display: inline-block;
     color: #ffffff;
     font-size: 64px;
     font-family: 'PoppinsBlack';
     -webkit-text-stroke: 2px #000000;
-}
+  }
+  
+  @media (max-width: 768px) {
+    .image {
+      position: relative;
+      left: 0;
+      top: 0;
+      width: 100%; /* Make the image fill the container */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 59px; /* Remove border radius if not needed */
+    }
+  
+    .vectorImage {
+      position: relative;
+      left: 0;
+      margin: 0 auto;
+    }
+  
+    .Home {
+      margin: 20px; /* Adjust the margins for smaller screens */
+    }
+  
+    .daycareText {
+      margin-left: 0; /* Remove left margin for smaller screens */
+      text-align: center; /* Center the text for smaller screens */
+    }
+  
+    .normalText {
+      width: 100%; /* Make the text box fill the container */
+    }
+  
+    .textWrapper3 {
+      text-align: center; /* Center the text for smaller screens */
+    }
+  }
 
+  .missionBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    padding: 20px;
+    margin-top: 45px;
+    width: 50%;
+    border-radius: 7px;
+    box-shadow: 0px 0px 0px 4px #e3ceff;
+  }
 
+  .visionBox {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    align-self: center;
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    border-radius: 7px;
+    box-shadow: 0px 0px 0px 4px #e3ceff;
+    margin-top: 45px;
+  }
+
+  .valSBox {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    align-self:flex-end;
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    border-radius: 7px;
+    box-shadow: 0px 0px 0px 4px #e3ceff;
+    margin-top: 45px;
+  }
+
+  .subHeader {
+    font-family:  "PoppinsSemiBold";
+    font-size: 48px;
+  }
+
+  .decorI {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .decorII {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .decorII img {
+    position: relative;
+    top: 45px;
+    vertical-align:bottom;
+  }
+
+  .eventDiv {
+    margin-top: 40px;
+  }
+
+  .cardViews {
+    display: flex;
+    flex-direction: row;
+    margin-top: 67px;
+    justify-content: space-between;
+  }
