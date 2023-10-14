@@ -1,0 +1,6 @@
+.aboutUs {
+    margin: 45px 75px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
