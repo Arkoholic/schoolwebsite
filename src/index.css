@@ -39,3 +39,15 @@ code {
   src: url("../src/assets/fonts/Poppins/Poppins-Light.ttf")
     format("opentype");
 }
+
+@font-face {
+  font-family: "MontserratBold";
+  src: url("../src/assets/fonts/Montserrat/static/Montserrat-Bold.ttf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../src/assets/fonts/Inter/static/Inter-Regular.ttf")
+    format("opentype");
+}

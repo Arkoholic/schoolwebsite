@@ -1,0 +1,18 @@
+.footerContainer {
+    margin: 65px 75px 10px;
+    display: grid;
+    
+}
+
+.logoAndTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 38px;
+}
+
+.schooltitle {
+    font-family: 'MontserratBold';
+    margin-left: 15px;
+    font-size: 13px;
+}
