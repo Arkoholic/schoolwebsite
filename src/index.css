@@ -47,7 +47,7 @@ code {
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: "InterReg";
   src: url("../src/assets/fonts/Inter/static/Inter-Regular.ttf")
     format("opentype");
 }
