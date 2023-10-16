@@ -1,6 +1,74 @@
 .aboutUs {
-    margin: 45px 75px;
+    margin: 45px 0;
     display: flex;
     align-items: stretch;
     flex-direction: column;
+    /* background-color: aqua; */
+    
 }
+
+.backgroundImage {
+    background-image: url("https://img.freepik.com/free-photo/green-rustic-blank-chalkboard-background_53876-110693.jpg?w=996&t=st=1697470001~exp=1697470601~hmac=bda30f5e3fe66548f1f487e8f0309c9ecc3751e98021e1b9e8ca934f55c65f90");
+    background-size:cover;
+    background-position: center;
+    width: 100%; /* Set the width to cover the entire screen */
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff; 
+    filter: brightness(90%);
+}
+
+.aboutUsText {
+    display: flex;
+    text-align: center;
+    margin: 75px  200px; 
+    /*change text-align to justify if necessary*/  
+}
+
+.eventDiv2 {
+    margin-top: 10px;
+    text-align: center;
+    
+  }
+
+.subHeader2 {
+    font-family:  "PoppinsSemiBold";
+    font-size: 48px;
+  }
+
+  .proPic {
+    width:200px;
+height:200px;
+overflow: hidden;
+border-radius: 50%;
+  }
+
+  .proPic img {
+    height: 100%;
+    width: 100%;
+   
+    
+  }
+
+.founderDiv {
+    display:flex;
+    flex-direction: row;
+    margin-top: 35px;
+    align-items:center;
+    justify-items: center;
+    justify-content: center;
+    
+}
+
+.founderDesc {
+    padding-left: 60px;
+    display: flex;
+    width: 25%;
+    text-align: left;
+    /* justify-content: left; */
+}
+
