@@ -14,23 +14,23 @@ export default function Footer() {
             <span className='subHeadings'>School Hours</span>
             <div className='DOTWhead'>
             <span className='DOTW'>Monday</span>
-            <span className='time'>7:00-5:00pm</span>
+            <span className='time'>7:00-3:00pm</span>
             </div>
             <div className='DOTWhead'>
             <span className='DOTW'>Tuesday</span>
-            <span className='time'>7:00-5:00pm</span>
+            <span className='time'>7:00-3:00pm</span>
             </div>
             <div className='DOTWhead'>
             <span className='DOTW'>Wednesday</span>
-            <span className='time'>7:00-5:00pm</span>
+            <span className='time'>7:00-3:00pm</span>
             </div>
             <div className='DOTWhead'>
             <span className='DOTW'>Thursday</span>
-            <span className='time'>7:00-5:00pm</span>
+            <span className='time'>7:00-3:00pm</span>
             </div>
             <div className='DOTWhead'>
             <span className='DOTW'>Friday</span>
-            <span className='time'>7:00-5:00pm</span>
+            <span className='time'>7:00-3:00pm</span>
             </div>
         </div>
         <div className='address'>
@@ -40,7 +40,7 @@ export default function Footer() {
         </div>
         <div className='contact'>
         <span className='subHeadings'>Contact</span> <br/>
-        <span className='content'>+233 255845252</span> <br/>
+        <span className='content'>+233 244659990</span> <br/>
         <span className='content'>abundantrainschool@gmail.com</span>
         </div>
         </div>

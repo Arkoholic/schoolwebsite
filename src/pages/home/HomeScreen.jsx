@@ -32,22 +32,19 @@ tempor incididunt ut labore et dolore magna aliqua. </span>
                 <div className='decorI'>
                 <div className='missionBox'>
                     <span className='subHeader'>Mission</span>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-tempor incididunt ut labore et dolore magna aliqua. </span>
+                    <span>To provide high quality child care through superior education in a safe environment</span>
                 </div>
                 <img src={Art2} alt='vector'/>
                 </div>
                 <div className='visionBox'>
                 <span className='subHeader'>Vision</span>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-tempor incididunt ut labore et dolore magna aliqua. </span>
+                <span>To prepare our students to excel academically and positively influence society </span>
                 </div>
                 <div className='decorII'>
                     <img src={Art} alt='vector' />
                 <div className='valSBox'>
-                <span className='subHeader'>Value Statement</span>
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-tempor incididunt ut labore et dolore magna aliqua. </span>
+                <span className='subHeader'>Core Values</span>
+                <span>Excellence  |  Respect  |  Diligence  |  Discipline  |  Creativity</span>
                 </div>
                 </div>
                 <div className='eventDiv'>

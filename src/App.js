@@ -5,6 +5,7 @@ import Headroom from 'react-headroom';
 import Header from './components/Header';
 import HomeScreen from './pages/home/HomeScreen';
 import AboutUs from './pages/AboutUs/AboutUs';
+import Gallery from './pages/Gallery/Gallery';
 import Footer from './components/Footer';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Routes>
       <Route path='/' exact Component={HomeScreen}/>
       <Route path='/AboutUs' Component={AboutUs}/>
+      <Route path='/Gallery' Component={Gallery}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
