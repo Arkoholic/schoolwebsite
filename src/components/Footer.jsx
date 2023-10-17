@@ -35,12 +35,15 @@ export default function Footer() {
         </div>
         <div className='address'>
         <span className='subHeadings'>Address</span> <br/>
-        <span className='content'>Street Name</span> <br/>
-        <span className='content'>GM-025 2455</span>
+        <span className='content'>P.O. Box AM 408 Amasaman</span> <br/>
+        <span className='content'>GW 0042-7302</span>
+        <span className='content'>Nairobi Street</span>
+        <span className='content'>Abease, Amasaman</span>
         </div>
         <div className='contact'>
         <span className='subHeadings'>Contact</span> <br/>
         <span className='content'>+233 244659990</span> <br/>
+        <span className='content'>+233 560009111</span> <br/>
         <span className='content'>abundantrainschool@gmail.com</span>
         </div>
         </div>

@@ -19,16 +19,16 @@ const HomeScreen = (props) => {
         <>
             <div className='Home'>
                 <div className='textWrapper3'>
-                    Comfort <img src={Art} alt="Art" className='vectorImage'/>
+                    Comfortable <img src={Art} alt="Art" className='vectorImage'/>
                     <img src={Pic} alt='school' className='image'/>
                 </div>
                 
                 <div className='daycareText'>
                     <div className='textWrapper2'>
-                        <span>Day</span>
+                        <span>Environ</span>
                     </div>
                     <div className='textWrapper1'>
-                        care
+                        ment
                     </div>
                 </div>
                 <div className='normalText'>
@@ -54,24 +54,24 @@ tempor incididunt ut labore et dolore magna aliqua. </span>
                 </div>
                 </div>
                 <div className='eventDiv'>
-                    <span className='subHeader'>Upcoming Events</span>
+                    <span className='subHeader'>Events</span>
                 </div>
                 <div className='cardViews'>
                 <Card
                 path={CardImage1}
-                title="PTA Meeting"
+                title="Career Day"
                 dateTime="Monday, 15th October 2023 @ 12:00pm"
-                info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+                info="At ARS, we train our learners to be entrepreneurs at an early age. We inculcate into them basic career options they can choose from. "
                 />
                 <Card
                 path={CardImage2}
-                title="PTA Meeting"
+                title="Traditional Day"
                 dateTime="Monday, 15th October 2023 @ 12:00pm"
                 info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
                 />
                 <Card
                 path={CardImage3}
-                title="PTA Meeting"
+                title="Color Day"
                 dateTime="Monday, 15th October 2023 @ 12:00pm"
                 info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
                 />
