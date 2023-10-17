@@ -20,7 +20,7 @@ function App() {
       <Route exact path='/'  Component={HomeScreen}/>
       <Route path='/AboutUs' Component={AboutUs}/>
       <Route path='/Gallery' Component={Gallery}/>
-      <Route path='*' Component={PageNotFound}/>
+      <Route  Component={PageNotFound}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
