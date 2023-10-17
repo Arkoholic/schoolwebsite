@@ -7,22 +7,24 @@ import HomeScreen from './pages/home/HomeScreen';
 import AboutUs from './pages/AboutUs/AboutUs';
 import Gallery from './pages/Gallery/Gallery';
 import Footer from './components/Footer';
+import PageNotFound from './pages/404Error/PageNotFound';
 
 function App() {
   return (
-    <>
+    <div className='App'>
     <BrowserRouter>
     <Headroom>
       <Header/>
     </Headroom>
       <Routes>
-      <Route path='/' exact Component={HomeScreen}/>
+      <Route exact path='/'  Component={HomeScreen}/>
       <Route path='/AboutUs' Component={AboutUs}/>
       <Route path='/Gallery' Component={Gallery}/>
+      <Route path='*' Component={PageNotFound}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
-    </>
+    </div>
   );
 }
 

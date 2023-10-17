@@ -1,27 +1,59 @@
+import { useState, useEffect } from 'react';
 import './Gallery.css';
 
+
+const imagesPerPage = 11; 
+
 const images = [
-    { src: 'https://lh5.googleusercontent.com/p/AF1QipOETT22o9rH--Y4zb060FvaKUFtKnNwGaoCkwKY=w141-h176-n-k-no-nu', alt: 'Image 1' },
-    { src: 'https://img.freepik.com/free-photo/children-playing-grass_1098-504.jpg?size=626&ext=jpg', alt: 'Image 2' },
-    { src: 'https://img.freepik.com/free-photo/children-playing-grass_1098-504.jpg?size=626&ext=jpg', alt: 'Image 3' },
-    { src: 'https://img.freepik.com/free-photo/children-playing-grass_1098-504.jpg?size=626&ext=jpg', alt: 'Image 4' },
-    { src: 'https://img.freepik.com/free-photo/children-playing-grass_1098-504.jpg?size=626&ext=jpg', alt: 'Image 5' },
-    { src: 'https://img.freepik.com/free-photo/children-playing-grass_1098-504.jpg?size=626&ext=jpg', alt: 'Image 5' },
-    { src: 'https://img.freepik.com/free-photo/cute-little-girl-holding-books-isolated-studio_1303-31021.jpg?size=626&ext=jpg', alt: 'Image 5' },
-    { src: 'https://img.freepik.com/free-photo/charming-little-girl-with-white-shirt-covered-with-different-paints_8353-7532.jpg?size=626&ext=jpg', alt: 'Image 7'},
-    { src: 'https://img.freepik.com/free-photo/childhood-dream-about-big-famous-future-pretty-little-kids-isolated-yellow-studio-background_155003-46634.jpg?size=626&ext=jpg', alt: 'Image8'},
-    { src: 'https://img.freepik.com/free-photo/cute-little-girl-drawing-with-pencils-home_169016-3329.jpg?size=626&ext=jpg', alt: 'Image 9'},
-    { src: 'https://lh5.googleusercontent.com/p/AF1QipO8KIyT2pUGV9vry9jQVYGcnqTuFLFDFVuZmVok=w141-h235-n-k-no-nu', alt: 'Image4'},
-    { src: 'https://img.freepik.com/free-photo/hands-child-who-smeared_1150-20658.jpg?size=626&ext=jpg&uid=R116433410&semt=sph', alt: 'Image55'},
-    { src: 'https://img.freepik.com/premium-photo/child-pretend-be-pilot-kid-having-fun-home-happy-child-dreaming-about-travel_411285-9366.jpg?size=626&ext=jpg&uid=R116433410&semt=sph', alt:'Image9'},
-    { src: 'https://img.freepik.com/free-photo/little-girl-megaphone-positive-shoot_53876-137697.jpg?size=626&ext=jpg&uid=R116433410&semt=sph', alt : 'Image99'},
-    { src: 'https://lh5.googleusercontent.com/p/AF1QipNAnPyL2wU_V9Ifmz55apF3ULGngvNV7s7e3GXZ=w141-h101-n-k-no-nu', alt: 'Image5'}
-  ];
+  { src: require('../../assets/img/images/DSC_0177.JPG'), alt: 'Image 1' },
+  { src: require('../../assets/img/images/DSC_0181.JPG'), alt: 'Image 2' },
+  { src: require('../../assets/img/images/DSC_0090.JPG'), alt: 'Image 3' },
+  { src: require('../../assets/img/images/DSC_0158.JPG'), alt: 'Image 4' },
+  { src: require('../../assets/img/images/DSC_0442.JPG'), alt: 'Image 5' },
+  { src: require('../../assets/img/images/DSC_0222.JPG'), alt: 'Image 6' },
+  { src: require('../../assets/img/images/DSC_0163.JPG'), alt: 'Image 7' },
+  { src: require('../../assets/img/images/DSC_0212.JPG'), alt: 'Image 8' },
+  { src: require('../../assets/img/images/DSC_0183.JPG'), alt: 'Image 9' },
+  { src: require('../../assets/img/images/DSC_0194.JPG'), alt: 'Image 10' },
+  { src: require('../../assets/img/images/DSC_0228.JPG'), alt: 'Image 11' },
+  { src: require('../../assets/img/images/DSC_0122.JPG'), alt: 'Image 12' },
+  { src: require('../../assets/img/images/DSC_0116.JPG'), alt: 'Image 13' },
+  { src: require('../../assets/img/images/DSC_0253.JPG'), alt: 'Image 14' },
+  { src: require('../../assets/img/images/DSC_0257.JPG'), alt: 'Image 15' },
+  { src: require('../../assets/img/images/DSC_0261.JPG'), alt: 'Image 16' },
+  { src: require('../../assets/img/images/DSC_0300.JPG'), alt: 'Image 17' },
+  { src: require('../../assets/img/images/DSC_0330.JPG'), alt: 'Image 18' },
+  { src: require('../../assets/img/images/DSC_0373.JPG'), alt: 'Image 19' },
+  { src: require('../../assets/img/images/DSC_0203.JPG'), alt: 'Image 20' },
+  
+];
 
 function Gallery() {
-    return(
-        <div className='gallery'>
-           {images.map((image, index) => (
+  const [currentPage, setCurrentPage] = useState(1);
+  const totalImages = images.length;
+  const totalPages = Math.ceil(totalImages / imagesPerPage);
+
+  const handlePrevPage = () => {
+    setCurrentPage(prev => Math.max(prev - 1, 1));
+  };
+
+  const handleNextPage = () => {
+    setCurrentPage(prev => Math.min(prev + 1, totalPages));
+  };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [currentPage]);
+
+  const startIndex = (currentPage - 1) * imagesPerPage;
+  const endIndex = Math.min(startIndex + imagesPerPage, totalImages);
+
+  const visibleImages = images.slice(startIndex, endIndex);
+
+  return (
+    <>
+    <div className='gallery'>
+      {visibleImages.map((image, index) => (
         <img
           key={index}
           className="gallery__item"
@@ -29,8 +61,14 @@ function Gallery() {
           alt={image.alt}
         />
       ))}
-        </div>
-    );
+    </div>
+    <div className="pagination">
+    <button className='paginationButton' onClick={handlePrevPage} disabled={currentPage === 1}>Previous</button>
+    <span className='paginationText'>Page {currentPage} of {totalPages}</span>
+    <button className='paginationButton' onClick={handleNextPage} disabled={currentPage === totalPages}>Next</button>
+  </div>
+  </>
+  );
 }
 
 export default Gallery;
