@@ -10,7 +10,7 @@ const Header = () => {
             <nav className='Header'>
                 <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
                     <img src={logo} alt='School logo' style={{ width: 46, height: 53, paddingLeft: 20 }} />
-                    <h1 className='logo-large-heading' style={{ textAlign: 'justify' }}>ABUNDANT RAIN SCHOOLl</h1>
+                    <h1 className='logo-large-heading' style={{ textAlign: 'justify' }}>ABUNDANT RAIN SCHOOL</h1>
                 </div>
                 <ul className='nav-bar-options'>
                     <li><Link to="/" className={'link'}>Home</Link></li>
