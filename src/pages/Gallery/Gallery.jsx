@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './Gallery.css';
 
 
-const imagesPerPage = 11; 
+const imagesPerPage = 10; 
 
 const images = [
   { src: require('../../assets/img/images/DSC_0177.JPG'), alt: 'Image 1' },

@@ -58,6 +58,12 @@
   }
   
   @media (max-width: 912px) {
+    .Home{
+      margin: 0 75px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
     .image {
       position: relative;
       display: none;

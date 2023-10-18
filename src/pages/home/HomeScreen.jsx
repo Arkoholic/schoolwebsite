@@ -16,7 +16,7 @@ const HomeScreen = (props) => {
 
     
     return (
-        <>
+        
             <div className='Home'>
                 <div className='textWrapper3'>
                     Comfortable <img src={Art} alt="Art" className='vectorImage'/>
@@ -77,7 +77,7 @@ tempor incididunt ut labore et dolore magna aliqua. </span>
                 />
                 </div>
             </div>
-        </>
+        
     );
 };
 
