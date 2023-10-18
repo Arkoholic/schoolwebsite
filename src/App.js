@@ -19,7 +19,7 @@ function App() {
     </Headroom>
       <Routes>
       <Route exact path='*'  Component={HomeScreen}/>
-      <Route path='/AboutUs' Component={AboutUs}/>
+      <Route path='*/AboutUs' Component={AboutUs}/>
       <Route path='/Gallery' Component={Gallery}/>
       <Route  path='/Admissions'Component={Admissions}/>
       </Routes>
