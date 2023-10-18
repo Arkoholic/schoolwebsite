@@ -63,11 +63,11 @@
 
 .solo {
     display: flex;
-    justify-content: center;
-    height: 100%;
-    align-items: center;
+    flex-direction: column;
+    margin: 0 20px;
+    align-items: left;
     font-weight: bold;
     font-style: italic;
-    font-size: 18px;
+    font-size: 20px;
 }
 

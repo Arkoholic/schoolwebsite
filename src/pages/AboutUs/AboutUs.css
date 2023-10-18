@@ -8,7 +8,7 @@
 }
 
 .backgroundImage {
-    background-image: url("https://img.freepik.com/free-photo/green-rustic-blank-chalkboard-background_53876-110693.jpg?w=996&t=st=1697470001~exp=1697470601~hmac=bda30f5e3fe66548f1f487e8f0309c9ecc3751e98021e1b9e8ca934f55c65f90");
+    background-image: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?auto=format&fit=crop&q=80&w=4138&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size:cover;
     background-position: center;
     width: 100%; /* Set the width to cover the entire screen */
@@ -18,7 +18,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #ffffff; 
+    color: #302b2b; 
     filter: brightness(90%);
 }
 

@@ -47,7 +47,11 @@ export default function Footer() {
         <span className='content'>abundantrainschool@gmail.com</span>
         </div>
         </div>
-        <div className='solo'>Let God arise !!</div>
+        <div className='solo'>
+            <span>Motto: </span>
+            <span>Let God Arise !</span>
+
+        </div>
         </div>
     );
 }

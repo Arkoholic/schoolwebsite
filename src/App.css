@@ -3,6 +3,7 @@
   height: auto;
   display: flex;
   flex-direction: column;
+  background-color: #F8F8F8;
   /* align-items: center;  */
   /* justify-content: center;  */
 }
