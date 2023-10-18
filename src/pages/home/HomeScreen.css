@@ -64,25 +64,32 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    
+  
     }
+
+    .cardViews {
+      flex-wrap: wrap;
+      align-items: center;
+      
+      justify-content: center;
+      
+    }
+
     .image {
       position: relative;
       display: none;
-      left: 0;
+      /* left: 0;
       top: 0;
       width: 50%;
       height: auto; 
-      border-radius: 59px; 
+      border-radius: 59px;  */
     }
   
     .vectorImage {
       position: relative;
       left: 0;
       margin: 0 auto;
-    }
-  
-    .Home {
-      margin: 20px; 
     }
   
     .daycareText {
@@ -98,13 +105,7 @@
       text-align: center; 
     }
 
-    .cardViews {
-      display: flex;
-      flex-direction: row;
-      margin-top: 67px;
-      padding: 15px;
-      justify-content: space-between;
-    }
+    
   }
 
   .missionBox {
@@ -177,5 +178,5 @@
     flex-direction: row;
     margin-top: 67px;
     padding: 15px;
-    justify-content: space-between;
+    
   }

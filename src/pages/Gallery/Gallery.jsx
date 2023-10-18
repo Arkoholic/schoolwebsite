@@ -4,6 +4,8 @@ import './Gallery.css';
 
 const imagesPerPage = 10; 
 
+
+
 const images = [
   { src: require('../../assets/img/images/DSC_0177.JPG'), alt: 'Image 1' },
   { src: require('../../assets/img/images/DSC_0181.JPG'), alt: 'Image 2' },
