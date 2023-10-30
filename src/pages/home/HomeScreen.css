@@ -112,12 +112,18 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color: white;
+    color: white;
+    background-color: #4B236A;
     padding: 20px;
     margin-top: 45px;
     width: 50%;
     border-radius: 7px;
-    box-shadow: 0px 0px 0px 4px #e3ceff;
+    box-shadow: 0px 0px 0px 4px #4B236A;
+    transition: transform 0.5s ease;
+  }
+
+  .missionBox:hover, .visionBox:hover , .valSBox:hover {
+    transform: scale(1.05);
   }
 
   .visionBox {
@@ -125,25 +131,30 @@
     flex-direction: column;
     align-items:flex-start;
     align-self: center;
-    background-color: white;
+    color: white;
+    background-color: #d5aa41;
     padding: 20px;
     width: 50%;
     border-radius: 7px;
-    box-shadow: 0px 0px 0px 4px #e3ceff;
+    box-shadow: 0px 0px 0px 4px #d5aa41;
     margin-top: 45px;
+    transition: transform 0.5s ease;
   }
+
 
   .valSBox {
     display: flex;
     flex-direction: column;
     align-items:flex-start;
     align-self:flex-end;
-    background-color: white;
+    color: white;
+    background-color: #4B236A;
     padding: 20px;
     width: 50%;
     border-radius: 7px;
-    box-shadow: 0px 0px 0px 4px #e3ceff;
+    box-shadow: 0px 0px 0px 4px #4B236A;
     margin-top: 45px;
+    transition: transform 0.5s ease;
   }
 
   .subHeader {

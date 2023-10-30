@@ -13,25 +13,10 @@ export default function Footer() {
         <div className='hours'>
             <span className='subHeadings'>School Hours</span>
             <div className='DOTWhead'>
-            <span className='DOTW'>Monday</span>
+            <span className='DOTW'>Monday - Friday</span> 
             <span className='time'>7:00-3:00pm</span>
             </div>
-            <div className='DOTWhead'>
-            <span className='DOTW'>Tuesday</span>
-            <span className='time'>7:00-3:00pm</span>
-            </div>
-            <div className='DOTWhead'>
-            <span className='DOTW'>Wednesday</span>
-            <span className='time'>7:00-3:00pm</span>
-            </div>
-            <div className='DOTWhead'>
-            <span className='DOTW'>Thursday</span>
-            <span className='time'>7:00-3:00pm</span>
-            </div>
-            <div className='DOTWhead'>
-            <span className='DOTW'>Friday</span>
-            <span className='time'>7:00-3:00pm</span>
-            </div>
+            
         </div>
         <div className='address'>
         <span className='subHeadings'>Address</span> <br/>

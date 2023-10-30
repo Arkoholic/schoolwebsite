@@ -5,7 +5,7 @@ import Art2 from '../../assets/img/yellow-to-upperLeft.svg';
 import Pic from '../../assets/img/schoolBackgroundImage.png';
 import CardImage1 from '../../assets/img/images/careerPic.jpg';
 import CardImage2 from '../../assets/img/images/culture.jpg';
-import CardImage3 from '../../assets/img/cardImage3.svg';
+// import CardImage3 from '../../assets/img/cardImage3.svg';
 import Card from '../../components/Card';
 
 
