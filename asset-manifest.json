@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/schoolwebsite/static/css/main.714222e7.css",
-    "main.js": "/schoolwebsite/static/js/main.080a1a42.js",
+    "main.css": "/schoolwebsite/static/css/main.5b25b48d.css",
+    "main.js": "/schoolwebsite/static/js/main.3f63ea74.js",
     "static/js/787.8e6f0b87.chunk.js": "/schoolwebsite/static/js/787.8e6f0b87.chunk.js",
     "static/media/DSC_0183.JPG": "/schoolwebsite/static/media/DSC_0183.fb37fac08dafe337a2b4.JPG",
     "static/media/DSC_0163.JPG": "/schoolwebsite/static/media/DSC_0163.ce4b085e145e45f09631.JPG",
@@ -24,26 +24,25 @@
     "static/media/DSC_0203.JPG": "/schoolwebsite/static/media/DSC_0203.5ccde2d963b9decadfca.JPG",
     "static/media/DSC_0253.JPG": "/schoolwebsite/static/media/DSC_0253.ef5402f38ef88aa2f562.JPG",
     "static/media/DSC_0261.JPG": "/schoolwebsite/static/media/DSC_0261.d57cedfaacc27b93cb56.JPG",
+    "static/media/culture.jpg": "/schoolwebsite/static/media/culture.d365cb7e7289e2075301.jpg",
+    "static/media/careerPic.jpg": "/schoolwebsite/static/media/careerPic.f8ee49920e26874671f0.jpg",
     "static/media/Inter-Regular.ttf": "/schoolwebsite/static/media/Inter-Regular.9ca9ba81e9dcaa12b3a1.ttf",
     "static/media/Montserrat-Bold.ttf": "/schoolwebsite/static/media/Montserrat-Bold.50f0257aa1e905f4bfaf.ttf",
-    "static/media/culture.jpg": "/schoolwebsite/static/media/culture.0e407adce8529cb0a2c6.jpg",
     "static/media/Poppins-Light.ttf": "/schoolwebsite/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
     "static/media/Poppins-Regular.ttf": "/schoolwebsite/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/Poppins-SemiBold.ttf": "/schoolwebsite/static/media/Poppins-SemiBold.ac8d04b620e54be9b0f0.ttf",
     "static/media/Poppins-Bold.ttf": "/schoolwebsite/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "static/media/Poppins-Black.ttf": "/schoolwebsite/static/media/Poppins-Black.d8b850b920a5ef49d752.ttf",
     "static/media/School_logo.svg": "/schoolwebsite/static/media/School_logo.326504e09a681f50d014496aa5853723.svg",
-    "static/media/careerPic.jpg": "/schoolwebsite/static/media/careerPic.d66a5408513bf142aa91.jpg",
-    "static/media/cardImage3.svg": "/schoolwebsite/static/media/cardImage3.9cac28fa21b1e8a6009f98a9a49c908e.svg",
     "static/media/yellow-to-left-pluses.svg": "/schoolwebsite/static/media/yellow-to-left-pluses.4ede0d1f6e1944b8789a5605286acd33.svg",
     "static/media/yellow-to-upperLeft.svg": "/schoolwebsite/static/media/yellow-to-upperLeft.2c1ed437e53ef967037b960246a4d3ec.svg",
     "index.html": "/schoolwebsite/index.html",
-    "main.714222e7.css.map": "/schoolwebsite/static/css/main.714222e7.css.map",
-    "main.080a1a42.js.map": "/schoolwebsite/static/js/main.080a1a42.js.map",
+    "main.5b25b48d.css.map": "/schoolwebsite/static/css/main.5b25b48d.css.map",
+    "main.3f63ea74.js.map": "/schoolwebsite/static/js/main.3f63ea74.js.map",
     "787.8e6f0b87.chunk.js.map": "/schoolwebsite/static/js/787.8e6f0b87.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.714222e7.css",
-    "static/js/main.080a1a42.js"
+    "static/css/main.5b25b48d.css",
+    "static/js/main.3f63ea74.js"
   ]
 }
