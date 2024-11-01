@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/schoolwebsite/static/css/main.5b25b48d.css",
-    "main.js": "/schoolwebsite/static/js/main.3f63ea74.js",
+    "main.css": "/schoolwebsite/static/css/main.b7d21d25.css",
+    "main.js": "/schoolwebsite/static/js/main.f5bc4db6.js",
     "static/js/787.8e6f0b87.chunk.js": "/schoolwebsite/static/js/787.8e6f0b87.chunk.js",
     "static/media/DSC_0183.JPG": "/schoolwebsite/static/media/DSC_0183.fb37fac08dafe337a2b4.JPG",
     "static/media/DSC_0163.JPG": "/schoolwebsite/static/media/DSC_0163.ce4b085e145e45f09631.JPG",
@@ -37,12 +37,12 @@
     "static/media/yellow-to-left-pluses.svg": "/schoolwebsite/static/media/yellow-to-left-pluses.4ede0d1f6e1944b8789a5605286acd33.svg",
     "static/media/yellow-to-upperLeft.svg": "/schoolwebsite/static/media/yellow-to-upperLeft.2c1ed437e53ef967037b960246a4d3ec.svg",
     "index.html": "/schoolwebsite/index.html",
-    "main.5b25b48d.css.map": "/schoolwebsite/static/css/main.5b25b48d.css.map",
-    "main.3f63ea74.js.map": "/schoolwebsite/static/js/main.3f63ea74.js.map",
+    "main.b7d21d25.css.map": "/schoolwebsite/static/css/main.b7d21d25.css.map",
+    "main.f5bc4db6.js.map": "/schoolwebsite/static/js/main.f5bc4db6.js.map",
     "787.8e6f0b87.chunk.js.map": "/schoolwebsite/static/js/787.8e6f0b87.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b25b48d.css",
-    "static/js/main.3f63ea74.js"
+    "static/css/main.b7d21d25.css",
+    "static/js/main.f5bc4db6.js"
   ]
 }
